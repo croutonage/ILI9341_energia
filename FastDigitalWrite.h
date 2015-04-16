@@ -16,11 +16,6 @@
 ///
 /// @see	ReadMe.txt for references
 ///
-// Board check
-#if defined(__LM4F120H5QR__)
-#else
-#error Board not supported.
-#endif
 // Core library
 #include "Energia.h"
 #ifndef FAST_DIGITAL_WRITE_VERSION

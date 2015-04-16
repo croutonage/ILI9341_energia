@@ -28,16 +28,11 @@
 #include "Energia.h"
 #include "SPI.h"
 #include <stdint.h>
-
-#if defined(__LM4F120H5QR__)
 #include <inc/hw_types.h>
 #include <inc/hw_memmap.h>
 #include <driverlib/sysctl.h>
 #include <driverlib/pin_map.h>
 #include <driverlib/gpio.h>
-#else
-#error Board not supported.
-#endif
 
 //Basic Colors
 #define RED		0xf800
